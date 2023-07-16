@@ -1,0 +1,26 @@
+{
+  "name": "modular-agency",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "autoprefixer": "^10.4.14",
+    "cli-alerts": "^1.2.2",
+    "nuxt": "^3.6.2",
+    "postcss": "^8.4.26",
+    "tailwind-config": "workspace:*",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "nuxt-md3": "workspace:*",
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.4"
+  }
+}
