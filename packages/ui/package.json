@@ -1,0 +1,25 @@
+{
+  "name": "@gft/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.6.2"
+  },
+  "keywords": [],
+  "author": "GFT Studio",
+  "license": "ISC"
+}

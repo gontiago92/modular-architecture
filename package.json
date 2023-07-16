@@ -1,21 +1,14 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "modular-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "pnpm run -r dev",
+    "build:ui": "pnpm --dir packages/nuxt-md3 build && pnpm dev",
+    "start": "pnpm --filter nuxt-md3 i --ignore-scripts && pnpm --filter nuxt-md3 prepack && pnpm i"
   },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^18",
-    "cli-alerts": "^1.2.2",
-    "nuxt": "^3.6.2"
-  },
-  "dependencies": {
-    "@pinia/nuxt": "^0.4.11",
-    "pinia": "^2.1.4"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

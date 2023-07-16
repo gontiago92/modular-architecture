@@ -1,0 +1,14 @@
+@tailwind base;
+
+@layer base {
+    .rotyre {
+        --color-text-base: #222831;
+        --color-text-muted: #5A6A82;
+        --color-text-inverted: #C8E1EB;
+
+        --color-fill: #C8E1EB;
+        --color-button-accent: #222831;
+        --color-button-accent-hover: #15191F;
+        --color-button-muted: #D3E7EF;
+    }
+}
