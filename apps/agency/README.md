@@ -14,11 +14,11 @@ The structure of a module folder is the following:
 
 ```yaml
 📂 module
-- 📂 components
-- 📂 composables
-- 📂 pages
-- 📂 plugins
-- 📂 stores
+  - 📂 components
+  - 📂 composables
+  - 📂 pages
+  - 📂 plugins
+  - 📂 stores
 ```
 
 All the files in each folder are automatically added to the Application.

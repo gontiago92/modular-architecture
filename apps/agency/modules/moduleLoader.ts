@@ -24,8 +24,8 @@ const RoutePath: {
   bracketsDotVueRegex: RegExp;
   parse: (file: string, module: string) => string;
 } = {
-  bracketsRegex: /\[|\]/g,
-  bracketsDotVueRegex: /\[|\]|.vue/g,
+  bracketsRegex: new RegExp(/\[|\]/, "g"),
+  bracketsDotVueRegex: new RegExp(/\[|\]|.vue/, "g"),
   parse: (file, module) => {
     const parsed = file
       .replace(RoutePath.bracketsRegex, function (match) {
